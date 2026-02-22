@@ -28,13 +28,13 @@ LinearSolve.init_cacheval
 
 The automatic algorithm selection is one of LinearSolve.jl's key features:
 
+```markdown
 ```@docs
-LinearSolve.defaultalg
-LinearSolve.get_tuned_algorithm
-LinearSolve.is_algorithm_available
-LinearSolve.show_algorithm_choices
-LinearSolve.make_preferences_dynamic!
-```
+defaultalg(A, b, assump::OperatorAssumptions)
+get_tuned_algorithm(::Type, ::Type, ::Integer)
+is_algorithm_available
+show_algorithm_choices
+make_preferences_dynamic!
 
 ### Preference System Architecture
 
