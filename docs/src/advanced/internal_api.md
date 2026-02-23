@@ -124,10 +124,8 @@ LinearSolve.__init_u0_from_Ab
 
 For custom solving strategies:
 
-```@docs
-LinearSolve.LinearSolveFunction
-LinearSolve.DirectLdiv!
-```
+```markdown
+See [`LinearSolveFunction`](@ref) and [`DirectLdiv!`](@ref) in the Solvers section.
 
 ## Preconditioner Infrastructure
 
@@ -143,9 +141,11 @@ LinearSolve.InvPreconditioner
 These are internal algorithm implementations:
 
 ```@docs
-LinearSolve.SimpleLUFactorization
 LinearSolve.LUSolver
 ```
+
+```markdown
+See [`SimpleLUFactorization`](@ref) in the Solvers section.
 
 ## Developer Notes
 
